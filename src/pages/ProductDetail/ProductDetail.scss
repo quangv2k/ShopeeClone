@@ -1,0 +1,131 @@
+.product-briefing {}
+
+.product-detail-img {
+    width: 480px;
+    padding: 15px 15px;
+}
+
+// .product-img-0 {
+//     width: 450px;
+//     height: 450px;
+//     background-image: url('https://down-vn.img.susercontent.com/file/vn-11134211-7qukw-lhb95cykq6sz02');
+//     background-size: contain;
+//     background-repeat: no-repeat;
+// }
+
+.product-detail-content {
+    width: 720px;
+    padding: 20px 35px 0 20px;
+}
+
+.quantity-contain {
+    margin-bottom: 20px;
+
+    .input-quantity {
+        width: 50px;
+        height: 32px;
+        text-align: center;
+    }
+}
+
+.title-product {
+    font-size: 20px;
+    margin-bottom: 4rem;
+}
+
+.price-cotain {
+    margin-bottom: 35px;
+
+    span {
+        font-size: 1.875rem;
+        font-weight: 500;
+        color: rgb(238, 77, 45);
+    }
+}
+
+.title {
+    color: rgb(117, 117, 117);
+    width: 110px;
+    text-transform: capitalize;
+    flex-shrink: 0;
+}
+
+
+.shopee-input-quantity {
+    button {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        outline: none;
+        cursor: pointer;
+        border: 0;
+        font-size: .875rem;
+        font-weight: 300;
+        line-height: 1;
+        letter-spacing: 0;
+        align-items: center;
+        justify-content: center;
+        transition: background-color .1s cubic-bezier(.4, 0, .6, 1);
+        border: 1px solid rgba(0, 0, 0, .09);
+        border-radius: 2px;
+        background: transparent;
+        color: rgba(0, 0, 0, .8);
+        width: 32px;
+        height: 32px;
+
+    }
+
+    .input-quantity {
+        outline: none;
+        cursor: pointer;
+        border: 0;
+        font-size: .875rem;
+        font-weight: 300;
+        line-height: 1;
+        letter-spacing: 0;
+        align-items: center;
+        justify-content: center;
+        transition: background-color .1s cubic-bezier(.4, 0, .6, 1);
+        border: 1px solid rgba(0, 0, 0, .09);
+        background: transparent;
+        color: rgba(0, 0, 0, .8);
+        width: 50px;
+        height: 32px;
+        &:focus-visible {
+            box-shadow: 0 0 0 2px #fff, 0 0 0 4px #000;
+        }
+    }
+}
+
+.btn-add-cart {
+    width: 200px;
+    height: 50px;
+    padding: 0 20px;
+    outline: 0px;
+    background: rgba(255, 87, 34, 0.1);
+    color: #ee4d2d;
+    border: 1px solid #ee4d2d;
+    box-shadow: rgba(0, 0, 0, 0.03) 0px 1px 1px 0px;
+    margin-right: 20px;
+
+    .MuiSvgIcon-root {
+        width: 18px;
+    }
+    &:hover {
+        background: rgba(255,197,178,.181);
+    }
+}
+
+.btn-buy {
+    width: 200px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    overflow: visible;
+    outline: 0px;
+    background: rgb(238, 77, 45);
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 1px 1px 0px;
+    border-radius: 2px;
+    border: 0px;
+    &:hover {
+        background: #f05d40;
+    }
+}

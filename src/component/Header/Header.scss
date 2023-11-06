@@ -1,0 +1,152 @@
+.header {
+    background: linear-gradient(-180deg, #f53d2d, #f63);
+    height: 128px;
+    width: 100%;
+    position: sticky;
+    color: #ffffff;
+    padding-top: 10px;
+    z-index: 99;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.hr1 {
+    width: 2px;
+    height: 15px;
+    background-color: #ffffff;
+}
+
+.m-left-10 {
+    margin-left: 10px;
+}
+
+.brand {
+    width: 166px;
+    height: 54px;
+    margin-right: 40px;
+    cursor: pointer;
+
+    // overflow: hidden; /* Ẩn phần ảnh vượt ra khỏi div */
+    img {
+        width: auto;
+        height: 100%;
+        display: block;
+    }
+}
+
+.wrap-search {
+    width: 840px;
+    height: 59px;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, .09);
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    height: 2.5rem;
+    box-sizing: border-box;
+    padding: 0.1875rem;
+    border-radius: 2px;
+    background: #fff;
+    margin: 0 10px;
+
+    input {
+        display: flex;
+        flex: 1;
+        align-items: center;
+        outline: none;
+        border: 0;
+        padding: 0;
+        margin: 0;
+    }
+
+    button {
+        position: relative;
+        overflow: visible;
+        outline: 0;
+        background: #fb5533;
+        height: 34px;
+        padding: 0 15px;
+        min-width: 60px;
+        max-width: 190px;
+        text-overflow: ellipsis;
+        flex-direction: column;
+        font-size: 14px;
+        box-sizing: border-box;
+        box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .09);
+        border-radius: 2px;
+        border: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-transform: capitalize;
+        outline: 0;
+        cursor: pointer;
+    }
+}
+
+.cart {
+    width: 138px;
+    height: 59px;
+    padding: 10px 0;
+    cursor: pointer;
+    span {
+        margin: 0 auto;
+        width: 41px;
+        height: 26px;
+
+        i {
+            font-size: 22px;
+        }
+    }
+
+    .shopee-cart-number-badge {
+        position: relative;
+        border-radius: 2.75rem;
+        min-width: 0.6875rem;
+        line-height: 1.2em;
+        padding: 0 0.3125rem;
+        text-align: center;
+        height: 1.3rem;
+        border: 0.125rem solid  #ee4d2d;
+        color: #ee4d2d;
+        background-color: #fff;
+        left: -1.125rem;
+        top: -0.5rem;
+        margin-right: -0.875rem;
+        top: -1rem;
+        left: -4.3rem;
+    }
+}
+
+.user-contaier-navbar {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+
+        &:hover {
+            background-color: #ddd;
+        }
+    }
+
+
+    &:hover .dropdown-content {
+        display: block;
+    }
+}

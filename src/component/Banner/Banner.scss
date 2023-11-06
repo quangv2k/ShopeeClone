@@ -1,0 +1,118 @@
+.containBaner {
+    padding-top: 30px;
+    background-color: rgb(255, 255, 255);
+    .imgBanner1 {
+        width: 800px;
+        height: 230px;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+}
+
+.imgW-H {
+    width: 480px;
+    height: 110px;
+}
+
+.imgBanner2 {
+    width: 400px;
+    height: 235px;
+    margin-left: 5px;
+    .imgBanner2_1 {
+        margin-bottom: 10px;
+    }
+}
+.KM1 {
+    width: 100px;
+    height: 108px;
+}
+.iconKM1 {
+    margin: 0 auto;
+    width: 45px;
+    height: 45px;
+    background-image: url("./img/KM1.png"); 
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
+.iconKM2 {
+    margin: 0 auto;
+    width: 45px;
+    height: 45px;
+    background-image: url("./img/KM2.png"); 
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
+.iconKM3 {
+    margin: 0 auto;
+    width: 45px;
+    height: 45px;
+    background-image: url("./img/KM3.png"); 
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
+.iconKM4 {
+    margin: 0 auto;
+    width: 45px;
+    height: 45px;
+    background-image: url("./img/KM4.png"); 
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
+.iconKM5 {
+    margin: 0 auto;
+    width: 45px;
+    height: 45px;
+    background-image: url("./img/KM5.png"); 
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
+.iconKM6 {
+    margin: 0 auto;
+    width: 45px;
+    height: 45px;
+    background-image: url("./img/KM6.png"); 
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
+.iconKM7 {
+    margin: 0 auto;
+    width: 45px;
+    height: 45px;
+    background-image: url("./img/KM7.png"); 
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
+.iconKM8 {
+    margin: 0 auto;
+    width: 45px;
+    height: 45px;
+    background-image: url("./img/KM8.png"); 
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
+.iconKM9 {
+    margin: 0 auto;
+    width: 45px;
+    height: 45px;
+    background-image: url("./img/KM8.png"); 
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
+
+.titleKM {
+    color: #222;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.fs-13 {
+    font-size: 13px;
+}
