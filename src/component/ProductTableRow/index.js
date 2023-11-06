@@ -23,6 +23,7 @@ function ImageDiv({ imageUrl }) {
 
 export default function ProductTableRow({ row }) {
     // console.log(row);
+    //test 
     const { isOpenModal, setIsOpenModal, initDataModal, setiInitDataModal, handleSearch } = useContext(ProductModalContext);
     const {pagingData, setPagingData,refetch } = useContext(ProductPagingContext);
     const handleDelete = async () => {
